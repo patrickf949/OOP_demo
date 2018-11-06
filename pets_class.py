@@ -81,8 +81,7 @@ class Pet():
 		Dog.eat(self)
 		
 
-#def main():
-	#start application
+
 T= Pet("Tom",6)
 F= Pet("Fletcher",7)
 L=Pet("Larry",9)
@@ -102,6 +101,4 @@ else:
 	#if any dog is still hungry
 	print("My dogs are hungry")
 
-# if __name__ == '__main__':
-# 	main()
 	
