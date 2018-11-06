@@ -2,4 +2,4 @@
 
 Run in terminal using
 
-` python3 pets_class.py
+```$ python3 pets_class.py ```
