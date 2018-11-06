@@ -20,7 +20,7 @@ class Dog(Mammals):
 		"""
 		self.name = name
 		self.age = age
-		self.hungry=True
+		self.is_hungry=True
 		Dog.population+=1#increase dog population every time an instance of this class is initialised
 	
 	def introduce_dog(self):
@@ -45,7 +45,7 @@ class Dog(Mammals):
 		params: n/a
 		returns: n/a
 		"""
-		self.hungry=False
+		self.is_hungry=False
 		Dog.population-=1
 		if Dog.population==0:
 			print("All my dogs are hungry")
