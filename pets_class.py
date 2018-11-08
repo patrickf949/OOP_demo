@@ -1,6 +1,6 @@
 
 class Mammals:
-
+	#Defines mammals
 	def __init__(self):
 		pass
 
